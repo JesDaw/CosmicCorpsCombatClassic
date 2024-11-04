@@ -1,4 +1,4 @@
-extends Camera3D
+extends Camera3D 
 
 @export var player1: CharacterBody3D
 @export var player2: CharacterBody3D
@@ -12,5 +12,4 @@ func _process(delta):
 		var distance_between_players = player1.position.distance_to(player2.position)
 		var camera_distance = clamp(distance_between_players * zoom_factor, min_distance, max_distance)
 		position = midpoint + Vector3(0, 0.2, -camera_distance)  
-		# Make the camera look at the midpoint
 		look_at(midpoint, Vector3.UP)

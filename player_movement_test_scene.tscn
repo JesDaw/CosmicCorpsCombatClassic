@@ -54,7 +54,7 @@ mesh = SubResource("PlaneMesh_ckka2")
 shape = SubResource("ConcavePolygonShape3D_bqs17")
 
 [node name="player1" type="CharacterBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2899, 0.692135, -0.123802)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2899, 1.06766, -0.123802)
 axis_lock_linear_z = true
 script = ExtResource("1_yo7gw")
 
